@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea editable="false" prefHeight="600.0" prefWidth="300.0" text="&#10;This module simulates WireWorld - a cellular automaton. You will find it's set of rules in the link below:&#10;&#10;&#10;------------------------------------------------------&#10;In order to start a simulation, you have to:&#10;&#10;1. Provide the initial cell config (generation zero).&#10;This can be done either by clicking on the cells with left mouse button (which changes their states and, accordingly, colors) or  by choosing the &quot;Load from file&quot; option and loading it from a txt file.&#10;&#10;You can also choose the board parameters (width, height) in the options menu but beware: each change resets the cell states.&#10;If you decided to  use &quot;Load from file&quot; this is done automatically.&#10;&#10;2. Choose the number of generations and hit run.&#10;&#10;Maximum value of each choosable parameter is 200.&#10;&#10;------------------------------------------------------&#10;With high width or height values (100+) it may happen that the cell board is blurry, but don't worry: it is possible to zoom in and out with mouse scrool as well as to change the point of focus by dragging the cell board.&#10;&#10;&#10;" wrapText="true" />
+      <Hyperlink text="https://en.wikipedia.org/wiki/Wireworld" StackPane.alignment="TOP_LEFT">
+         <StackPane.margin>
+            <Insets left="10.0" top="80.0" />
+         </StackPane.margin>
+      </Hyperlink>
+   </children>
+</StackPane>
